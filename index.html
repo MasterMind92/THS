@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/custom-components.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+</head>
+
+<body style="font-family: Poppins;">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand navbar-light bg-light mb-5">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Home</a>
+        </div>
+    </nav>
+    <!--  -->
+    <div class="wrapper">
+        <div class="container">
+            <!-- <h1 class="text-center">Hello World</h1> -->
+            <div id="main-form" class="row">
+                <div class="col-12 col-md-8">
+                    <div class="wrapper">
+                        <div>
+                            <h1 class="h1-size txt-gris-fonce">DUREE DU SEJOUR</h1>
+                            <h2 class="h2-size theme-underline txt-gris-clair">COMBIEN DE TEMPS VOUS REPOSEREZ-VOUS ? </h2>
+                        </div>
+
+                        <div class="my-5">
+                            <div class="month">
+                                <ul>
+                                    <li class="prev">&#10094;</li>
+                                    <li class="next">&#10095;</li>
+                                    <li>August<br><span style="font-size:18px">2017</span></li>
+                                </ul>
+                            </div>
+
+                            <ul class="weekdays">
+                                <li class="text-white recap-txt-size">Lun</li>
+                                <li class="text-white recap-txt-size">Mar</li>
+                                <li class="text-white recap-txt-size">Mer</li>
+                                <li class="text-white recap-txt-size">Jeu</li>
+                                <li class="text-white recap-txt-size">Ven</li>
+                                <li class="text-white recap-txt-size">Sam</li>
+                                <li class="text-white recap-txt-size">Dim</li>
+                            </ul>
+
+                            <ul class="days">
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li class="active">10</li>
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li>15</li>
+                                <li>16</li>
+                                <li>17</li>
+                                <li>18</li>
+                                <li>19</li>
+                                <li>20</li>
+                                <li>21</li>
+                                <li>22</li>
+                                <li>23</li>
+                                <li>24</li>
+                                <li>25</li>
+                                <li>26</li>
+                                <li>27</li>
+                                <li>28</li>
+                                <li>29</li>
+                                <li>30</li>
+                                <li>31</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex ">
+                        <div>Souhaiteriez-vous des services additionnels ?</div> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="wrapper">
+                        <div class="mt-5">
+                            <h1 class="h1-size txt-gris-fonce">RESTAURATION</h1>
+                            <h2 class="h2-size theme-underline txt-gris-clair">CHOISISSEZ VOTRE PACK DE RESTAURATION</h2>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row my-5">
+                                <div class="col-12">
+                                    <!-- STRUCTURE HTML D'UNE OFFRE -->
+                                    <div class="d-flex justify-content-between py-3 border-top border-bottom border-dark">
+
+                                        <div class="px-3 d-flex align-items-center normal-txt-size">
+                                            <a class="txt-gris-fonce hover-gris-clair" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <span><i class="fa fa-plus fa-lg"></i></span>
+                                            </a>
+                                            <h2 class="h2-size txt-gris-fonce fnt-bold ml-4 mb-0">
+                                                Offre Standard
+                                            </h2>
+                                        </div>
+                                        <div class="bg-orange py-2 px-5">
+                                            <span class="txt-white fnt-bold">50 000 Fcfa</span>
+                                        </div>
+                                        <label class="col-auto">
+                                            <input type="checkbox" name="offre" value="standard">
+                                            <span class="checkmark" data-libelle="restauration-standard" data-price=50000></span>
+                                        </label>
+                                    </div>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body bg-gris-fonce txt-white">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </div>
+                                    <!-- FIN OFFRE -->
+                                    <!-- STRUCTURE HTML D'UNE OFFRE -->
+                                    <div class="d-flex justify-content-between py-3 border-top border-bottom border-dark">
+
+                                        <div class="px-3 d-flex align-items-center normal-txt-size">
+                                            <a class="txt-gris-fonce hover-gris-clair " data-toggle="collapse" href="#offre-premium-details" role="button" aria-expanded="false" aria-controls="offre-premium-details">
+                                                <span><i class="fa fa-plus fa-lg"></i></span>
+                                            </a>
+                                            <h2 class="h2-size txt-gris-fonce fnt-bold ml-4 mb-0">
+                                                Offre Premium
+                                            </h2>
+                                        </div>
+                                        <div class="bg-orange py-2 px-5">
+                                            <span class="txt-white fnt-bold">70 000 Fcfa</span>
+                                        </div>
+                                        <label class="col-auto">
+                                               <input type="checkbox" name="offre" value="premium">
+                                               <span class="checkmark" data-libelle="restauration-premium" data-price=70000></span>
+                                           </label>
+                                    </div>
+                                    <div class="collapse" id="offre-premium-details">
+                                        <div class="card card-body bg-gris-fonce txt-white">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </div>
+                                    <!-- FIN OFFRE -->
+                                    <!-- STRUCTURE HTML D'UNE OFFRE -->
+                                    <div class="d-flex justify-content-between py-3 border-top border-bottom border-dark">
+
+                                        <div class="px-3 d-flex align-items-center normal-txt-size">
+                                            <a class="txt-gris-fonce hover-gris-clair" data-toggle="collapse" href="#offre-gold-details" role="button" aria-expanded="false" aria-controls="offre-gold-details">
+                                                <span><i class="fa fa-plus fa-lg"></i></span>
+                                            </a>
+                                            <h2 class="h2-size txt-gris-fonce fnt-bold ml-4 mb-0 mr-5">
+                                                Offre GOLD
+                                            </h2>
+                                        </div>
+                                        <div class="bg-orange py-2 px-5 ml-2">
+                                            <span class="txt-white fnt-bold">90 000 Fcfa</span>
+                                        </div>
+                                        <label class="col-auto">
+                                               <input type="checkbox" name="offre" value="gold">
+                                               <span class="checkmark" data-libelle="restauration-gold" data-price=100000></span>
+                                           </label>
+                                    </div>
+                                    <div class="collapse" id="offre-gold-details">
+                                        <div class="card card-body bg-gris-fonce txt-white">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </div>
+                                    <!-- FIN OFFRE -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="wrapper">
+                        <div class="my-5">
+                            <h1 class="h1-size txt-gris-fonce">MENAGE-PRESSING</h1>
+                            <h2 class="h2-size theme-underline txt-gris-clair">CHOISISSEZ CE DONT VOUS AVEZ BESOIN</h2>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div id="menage" class="col-12">
+                                    <ul>
+                                        <li class="d-flex recap-txt-size">
+                                            <span>Menage en semaine ?</span>
+                                            <!-- SWITCH HTML STRUCTURE -->
+                                            <label class="switch ml-auto">
+                                                <input type="checkbox">
+                                                <span class="slider" data-libelle="Menage" data-price=10000></span>
+                                            </label>
+                                            <!--  -->
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="ml-5 recap-txt-size">Choisissez une frequence (7 max)</div>
+                                            <div class="d-flex ml-auto ui-comp-inc-1">
+                                                <a class="btn bg-gris-fonce txt-white minus" href="#" role="button"> <i class="fa fa-minus"></i></a>
+                                                <div id="cpt-menage" class="text-center counter w-50px">1</div>
+                                                <input type="hidden" name="freq_men" value="1">
+                                                <a class="btn bg-gris-fonce txt-white plus" href="#" role="button"> <i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  -->
+                                <div id="pressing" class="col-12 mt-5">
+                                    <ul>
+                                        <li class="d-flex recap-txt-size">
+                                            <span>Pressing en semaine ?</span>
+                                            <!-- SWITCH HTML STRUCTURE -->
+                                            <label class="switch ml-auto">
+                                                <input type="checkbox">
+                                                <span class="slider" data-libelle="Pressing" data-price=12000></span>
+                                            </label>
+                                            <!--  -->
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="ml-5 recap-txt-size">Choisissez une frequence (7 max)</div>
+                                            <div class="d-flex ml-auto ui-comp-inc-2">
+                                                <a class="btn bg-gris-fonce text-white minus" role="button"> <i class="fa fa-minus"></i></a>
+                                                <div id="cpt-pressing" class="text-center counter w-50px">1</div>
+                                                <input type="hidden" name="freq_press" value="1">
+                                                <a class="btn bg-gris-fonce text-white plus" role="button"> <i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="wrapper">
+                        <div class="my-5">
+                            <h1 class="h1-size txt-gris-fonce">VEHICULE</h1>
+                            <h2 class="h2-size theme-underline txt-gris-clair">SI JAMAIS VOUS AVEZ BESOIN D'UN VEHICULE</h2>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="d-flex col recap-txt-size">
+                                    <div>Souhaiteriez-vous reserver un vehicule ?</div> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="switch">
+                                        <input type="checkbox" name="vehicule" value=true>
+                                        <span class="slider"data-libelle="restauration-gold" data-price=100000></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- section de la calculatrice -->
+                <div class="col">
+                    <div class="w-100">
+                        <div id="calculatrice" class="bg-gris-fonce txt-white p-3 position-fixed col-12 col-lg-3">
+                            <h2 class="h2-size pb-3 border-bottom border-dark">RECAPITULATIF</h2>
+                            <ul id="services" class="normal-txt-size pl-1">
+                                <li id="restauration" class="d-flex" data-price=""></li>
+                                <li id="menage" class="d-flex" data-price=""></li>
+                                <li id="pressing" class="d-flex" data-price=""></li>
+                            </ul>
+                            <h4 class="py-3 border-bottom border-top  border-dark d-flex"><span>TOTAL HT</span>
+                                <div class="mx-auto"></div> <span id="total-ht">0</span></h2>
+                                <h4 class="pt-3 d-flex"><span>TOTAL TTC</span>
+                                    <div class="mx-auto"></div> <span id="total-ttc">0</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar navbar-expand navbar-light bg-light">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Home</a>
+        </div>
+    </footer>
+
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        // FONCTION D'ACTUALISATION DU PRIX
+        function refreshHT() {
+            // restauration
+            // menage
+            // pressing
+            var select1 = "div#calculatrice ul> li#restauration>span:last-child";
+            var select2 = "div#calculatrice ul> li#menage>span:last-child";
+            var select3 = "div#calculatrice ul> li#pressing>span:last-child";
+
+            var select4 = "div.ui-comp-inc-1 div.counter";
+            var select5 = "div.ui-comp-inc-2 div.counter";
+
+            var prixrest = $(select1).text();
+            var prixmenage = $(select2).text();
+            var prixpressing = $(select3).text();
+            var cptmenage = $(select4).text();
+            var cptpressing = $(select5).text();
+
+            if (prixrest !== "") prixrest = parseInt(prixrest);
+            else prixrest = 0;
+            if (prixmenage !== "") prixmenage = parseInt(prixmenage);
+            else prixmenage = 0;
+
+            if (prixpressing !== "") prixpressing = parseInt(prixpressing);
+            else prixpressing = 0;
+
+            $("span#total-ht").text(prixrest + prixmenage + prixpressing);
+            console.log(cptmenage, cptpressing);
+        }
+
+        function addcontentli(price, lib, counter, selector) {
+            console.log($(selector).text());
+            $(selector).html('<span>' + lib + '</span><div class="ml-auto"></div><span>' + (price * counter) + '</span>');
+            refreshHT();
+        };
+
+        function refreshOwnRow(price, counter, selectorprice, selectorlib, lib) {
+            if (price != "") price = parseInt(price);
+            else price = 0;
+            if (counter != "") counter = parseInt(counter);
+            else counter = 0;
+            if (selectorprice != "") $(selectorprice).text(price * counter);
+            if (selectorlib != "") $(selectorlib).text(lib);
+            refreshHT();
+            console.log(price, counter, selectorprice, selectorlib, lib);
+        };
+
+
+
+
+        // counter  ui-comp-inc minus plus
+
+        // COMPORTEMENT DE LA CALCULATRICE
+        // ajout libelle et prix de la restauration
+        $("span.checkmark").click(function() {
+            var price = $(this).attr('data-price');
+            var lib = $(this).attr('data-libelle');
+
+            var services = $("#calculatrice #services > li#restauration");
+            var select1 = "div#calculatrice ul> li#restauration";
+            var select2 = "div#calculatrice ul> li#restauration>span:last-child";
+            var select3 = "div#calculatrice ul> li#restauration>span:first-child";
+
+            if ($(this).siblings().is(":checked")) {
+                $(this).css({
+                    "backgroundColor": "#fb6a19",
+                });
+            }
+            // "backgroundColor": "#fb6a19"
+            if ($(select1).text() === "") {
+                addcontentli(price, lib, 1, select1);
+            } else {
+                refreshOwnRow(price, 1, select2, select3, lib);
+            }
+
+
+            // services.attr('data-lib',lib);
+
+            // console.log(tab_li.length);
+        });
+        // ajout libelle et prix du menage et du pressing
+        $("#menage label.switch span.slider").click(function(e) {
+            var price = parseInt($(this).attr('data-price'));
+            var lib = $(this).attr('data-libelle');
+            var services = $("#calculatrice #services > li#menage");
+            var select1 = "div#calculatrice ul> li#menage";
+
+
+            if ($(select1).text() == "") {
+                addcontentli(price, lib, 1, select1);
+            }
+
+            // S'IL N'Y A PAS DE LI
+            services.attr('data-lib', lib);
+            // services.html('<span>'+lib+'</span><div class="ml-auto"></div><span>'+price+'</span>');
+            // refreshHT();
+        });
+
+        $("#pressing label.switch span.slider").click(function(e) {
+            var price = parseInt($(this).attr('data-price'));
+            var lib = $(this).attr('data-libelle');
+            var services = $("#calculatrice #services > li#pressing");
+            var select1 = "div#calculatrice ul> li#pressing";
+
+            if ($(select1).text() == "") {
+                addcontentli(price, lib, 1, select1);
+            }
+
+            services.attr('data-lib', lib);
+            // services.html('<span>'+lib+'</span><div class="ml-auto"></div><span>'+price+'</span>');
+            // refreshHT();
+        });
+
+        // comportement du composant d'incrementation
+        $("div.ui-comp-inc-1> a.minus").click(function(e) {
+            var nb = parseInt($("div.ui-comp-inc-1 div.counter").text());
+            var compteur = $("div.ui-comp-inc-1 div.counter").text();
+            var price = parseInt($("#menage label.switch span.slider").attr('data-price'));
+            var services = $("#calculatrice #services > li#menage > span:last-child");
+            var totalht = parseInt($("#total-ht").text());
+            var select1 = "div#calculatrice ul> li#menage";
+            var select2 = "div#calculatrice ul> li#menage>span:last-child";
+            var select3 = "div#calculatrice ul> li#menage>span:first-child";
+
+
+
+            console.log(typeof(nb), nb);
+            e.preventDefault();
+            // si le nombre est different de zero decrementer
+            if (nb !== 0) {
+                nb = nb - 1;
+                $("div.ui-comp-inc-1 div.counter").text(nb);
+                $("div.ui-comp-inc-1>input[name='freq_men']").attr('value', nb);
+                refreshOwnRow(price, nb, select2, "", "");
+                // console.log(services.text(nb*price));
+                // var prixactuel = parseInt(services.text());
+                // console.log($("span#total-ht").text(totalht-prixactuel));
+            }
+        });
+
+        $("div.ui-comp-inc-1> a.plus").click(function(e) {
+            var nb = parseInt($("div.ui-comp-inc-1 div.counter").text());
+            var compteur = $("div.ui-comp-inc-1 div.counter").text();
+            var price = parseInt($("#menage label.switch span.slider").attr('data-price'));
+            var services = $("#calculatrice #services > li#menage > span:last-child");
+            var totalht = parseInt($("#total-ht").text());
+            var select1 = "div#calculatrice ul> li#menage";
+            var select2 = "div#calculatrice ul> li#menage>span:last-child";
+            var select3 = "div#calculatrice ul> li#menage>span:first-child";
+
+            // console.log(typeof(nb),nb);
+            e.preventDefault();
+            // si le nombre est different de zero decrementer
+            if (nb !== 7) {
+                nb = nb + 1;
+                $("div.ui-comp-inc-1 div.counter").text(nb);
+                $("div.ui-comp-inc-1>input[name='freq_men']").attr('value', nb);
+                refreshOwnRow(price, nb, select2, "", "");
+                // console.log(services.text(nb*price));    
+                // var prixactuel = parseInt(services.text());
+                // console.log($("span#total-ht").text(totalht+prixactuel));
+            }
+        });
+
+        // comportement du composant d'incrementation
+        $("div.ui-comp-inc-2> a.minus").click(function(e) {
+            var nb = parseInt($("div.ui-comp-inc-2 div.counter").text());
+            var compteur = $("div.ui-comp-inc-2 div.counter").text();
+            var price = parseInt($("#pressing label.switch span.slider").attr('data-price'));
+            var services = $("#calculatrice #services > li#pressing > span:last-child");
+            var totalht = parseInt($("#total-ht").text());
+            var select1 = "div#calculatrice ul> li#pressing";
+            var select2 = "div#calculatrice ul> li#pressing>span:last-child";
+            var select3 = "div#calculatrice ul> li#pressing>span:first-child";
+
+            console.log(typeof(nb), nb);
+            e.preventDefault();
+            // si le nombre est different de zero decrementer
+            if (nb !== 0) {
+                nb = nb - 1;
+                $("div.ui-comp-inc-2 div.counter").text(nb);
+                $("div.ui-comp-inc-2>input[name='freq_men']").attr('value', nb);
+
+                refreshOwnRow(price, nb, select2, "", "");
+
+                // console.log(services.text(nb*price));
+                // var prixactuel = parseInt(services.text());
+                // console.log($("span#total-ht").text(totalht-prixactuel));
+            }
+        });
+
+        $("div.ui-comp-inc-2> a.plus").click(function(e) {
+            var nb = parseInt($("div.ui-comp-inc-2 div.counter").text());
+            var compteur = $("div.ui-comp-inc-2 div.counter").text();
+            var price = parseInt($("#pressing label.switch span.slider").attr('data-price'));
+            var services = $("#calculatrice #services > li#pressing > span:last-child");
+            var totalht = parseInt($("#total-ht").text());
+            var select1 = "div#calculatrice ul> li#pressing";
+            var select2 = "div#calculatrice ul> li#pressing>span:last-child";
+            var select3 = "div#calculatrice ul> li#pressing>span:first-child";
+
+            console.log(typeof(nb), nb);
+            e.preventDefault();
+            // si le nombre est different de zero decrementer
+            if (nb !== 7) {
+                nb = nb + 1;
+                $("div.ui-comp-inc-2 div.counter").text(nb);
+                $("div.ui-comp-inc-2>input[name='freq_men']").attr('value', nb);
+                refreshOwnRow(price, nb, select2, "", "");
+                // console.log(services.text(nb*price));
+                // var prixactuel = parseInt(services.text());
+                // console.log($("span#total-ht").text(totalht+prixactuel));
+            }
+        });
+    </script>
+</body>
+
+</html>

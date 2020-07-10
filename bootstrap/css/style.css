@@ -1,0 +1,128 @@
+/* COULEUR DU THEMES */
+
+.bg-orange{
+    background: #fb6a19;
+}
+ .txt-orange{
+     color: #fb6a19;
+ }
+
+ .bg-gris-fonce{
+    background: #212121;
+}
+ .txt-gris-fonce{
+     color: #212121;
+     transition: all .40s ease-in-out;
+ }
+
+ .hover-gris-clair:hover{
+    color: #8d8d8d;
+ }
+
+ .txt-gris-clair{
+    color: #8d8d8d;
+}
+
+ .bg-white{
+     background: #ffffff;
+ }
+
+ .txt-white{
+     color: #ffffff;
+ }
+
+ .txt-white:hover{
+    color: #ffffff;
+}
+
+.w-50px{
+    width: 50px;
+}
+
+ .h1-size{
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .h2-size{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.recap-txt-size{
+    font-size: 20px;
+}
+
+.normal-txt-size{
+    font-size: 16px;
+}
+
+.fnt-bold{
+    font-weight: 700;
+}
+
+.theme-underline::after{
+    content: '';
+    display: block;
+    background: #fb6a19;
+    height: 5px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width:320px){
+    
+    .h1-size{
+        font-size: 24px;
+        font-weight: 700;
+    }
+   
+    .h2-size{
+       font-size: 16px;
+       font-weight: 400;
+   }
+
+   .recap-txt-size{
+        font-size: 20px;
+    }
+
+    .normal-txt-size{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:768px){
+    .h1-size{
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
+   
+    .h2-size{
+       font-size: 1.5625vw;
+       font-weight: 400;
+   }
+
+   .recap-txt-size{
+        font-size: 1.15vw;
+    }
+
+    .normal-txt-size{
+        font-size: 1.04vw;
+    }
+}
+@media only screen and (min-width:992px){
+    
+}
+@media only screen and (min-width:1170px){
+    
+}
+@media only screen and (min-width:1366px){
+    
+}
+@media only screen and (min-width:1600px){
+
+   
+   
+}
+@media only screen and (min-width:1920px){
+    
+}
